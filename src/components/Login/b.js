@@ -1,0 +1,9 @@
+<Input
+  id="password"
+  type="password"
+  label="Password"
+  isValid={passwordIsValid}
+  value={passwordState.value}
+  onChange={passwordChangeHandler}
+  onBlur={validatepasswordHandler}
+/>;
